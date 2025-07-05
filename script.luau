@@ -5,7 +5,7 @@ local HttpService = game:GetService("HttpService")
 local DataStoreService = game:GetService("DataStoreService")
 local bannedStore = DataStoreService:GetDataStore("ChatBannedUsers")
 
-local bannedWordsUrl = "https://raw.githubusercontent.com/orangespaceman/badwords/refs/heads/master/bad-words.txt"
+local bannedWordsUrl = "https://raw.githubusercontent.com/evil-nsapple/custom-roblox-chat-filter/refs/heads/main/list.txt"
 local bannedWords = {}
 
 local leetMap = {
